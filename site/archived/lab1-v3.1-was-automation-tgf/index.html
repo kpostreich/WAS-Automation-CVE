@@ -5,26 +5,26 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="None">
   
-  <link rel="shortcut icon" href="img/favicon.ico">
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
   <title>Strengthen Operational Security with IBM WebSphere Automation - IBM WebSphere Automation Lab</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-  <link href="extra.css" rel="stylesheet">
+  <link href="../../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Strengthen Operational Security with IBM WebSphere Automation";
-    var mkdocs_page_input_path = "README.md";
+    var mkdocs_page_input_path = "archived\\lab1-v3.1-was-automation-tgf.md";
     var mkdocs_page_url = null;
   </script>
   
-  <script src="js/jquery-2.1.1.min.js" defer></script>
-  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
   
@@ -37,9 +37,9 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="." class="icon icon-home"> IBM WebSphere Automation Lab</a>
+        <a href="../.." class="icon icon-home"> IBM WebSphere Automation Lab</a>
         <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
@@ -51,7 +51,7 @@
           
             <li class="toctree-l1">
 		
-    <a class="" href="index.md">Hand-on Lab</a>
+    <a class="" href="../../index.md">Hand-on Lab</a>
 	    </li>
           
         </ul>
@@ -64,7 +64,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href=".">IBM WebSphere Automation Lab</a>
+        <a href="../..">IBM WebSphere Automation Lab</a>
       </nav>
 
       
@@ -72,7 +72,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".">Docs</a> &raquo;</li>
+    <li><a href="../..">Docs</a> &raquo;</li>
     
       
     
@@ -87,7 +87,7 @@
             <div class="section">
               
                 <h1 id="strengthen-operational-security-with-ibm-websphere-automation">Strengthen Operational Security with IBM WebSphere Automation</h1>
-<p><img alt="banner" src="lab1-media/media/image1.jpeg" /></p>
+<p><img alt="banner" src="./lab1-media/media/image1.jpeg" /></p>
 <p><strong>Last updated:</strong> April 2022</p>
 <p><strong>Duration:</strong> 60 - 90 minutes</p>
 <p>Need support? Contact <strong>Kevin Postreich</strong></p>
@@ -137,7 +137,7 @@
 </li>
 </ol>
 <p>As is, your inventory is a spreadsheet, containing all information about your servers, such as the versions of the installed servers, which operating system they're installed on, and iFixes which have been applied, etc</p>
-<p><img alt="" src="lab1-media/media/image2.png" /></p>
+<p><img alt="" src="./lab1-media/media/image2.png" /></p>
 <p>Currently, this is a very manual, time-consuming process, and you'd like to automate this process to direct valuable time and resource elsewhere. This is where <strong>IBM WebSphere Automation</strong> will help!</p>
 <p>You would like to have:</p>
 <ul>
@@ -164,7 +164,7 @@ Furthermore, this information can be exported to a CSV file to be shared amongst
 <p>In this lab, you use the IBM WebSphere Automation to secure operations to reduce risk and meet compliance.</p>
 <p>At the end of this lab, you will be able to connect teams with the most relevant information through a single dashboard. This enables you to discover, analyze and remediate common vulnerabilities and exposures across instances. </p>
 <p>Furthermore, this information can be exported to a CSV file to be shared amongst the broader team. </p>
-<p><img alt="" src="lab1-media/media/image3.png" /></p>
+<p><img alt="" src="./lab1-media/media/image3.png" /></p>
 <h2 id="accessing-and-starting-the-environment">Accessing and starting the environment</h2>
 <p>If you are doing this lab as part of an instructor led workshop (virtual or face to face), an environment has already been provisioned for you. The instructor will provide the details for accessing the lab environment.</p>
 <p>Otherwise, you will need to reserve an environment for the lab. You can obtain one here. Follow the on-screen instructions for the “<strong>Reserve now</strong>” option.</p>
@@ -172,13 +172,13 @@ Furthermore, this information can be exported to a CSV file to be shared amongst
 <ol>
 <li>
 <p>When the demo environment is provisioned, use the provided username and password to access and start the environment. You should see the following screen:</p>
-<p><img alt="" src="lab1-media/media/image5.png" /></p>
+<p><img alt="" src="./lab1-media/media/image5.png" /></p>
 <p>WebSphere Automation is pre-installed in the OCP cluster hosted on the VMs.</p>
 <p><br></p>
 </li>
 <li>
 <p>If the environment is <strong>NOT</strong> already started, go ahead, and <strong>Start</strong> the environment by clicking on the <strong>Play</strong> button. It takes about 10-15 minutes for the environment to start and stabilize.</p>
-<p><img alt="" src="lab1-media/media/image6.png" /></p>
+<p><img alt="" src="./lab1-media/media/image6.png" /></p>
 <p><br> </p>
 </li>
 <li>
@@ -196,7 +196,7 @@ Furthermore, this information can be exported to a CSV file to be shared amongst
 </li>
 <li>
 <p>Click the screen representing the <strong>STUDENT</strong> VM</p>
-<p><img alt="student vm" src="lab1-media/media/image7.png" /></p>
+<p><img alt="student vm" src="./lab1-media/media/image7.png" /></p>
 <p><br></p>
 </li>
 <li>
@@ -211,12 +211,12 @@ Furthermore, this information can be exported to a CSV file to be shared amongst
 </li>
 </ul>
 <p><br></p>
-<p><img alt="student vm screen" src="lab1-media/media/image8.png" /></p>
+<p><img alt="student vm screen" src="./lab1-media/media/image8.png" /></p>
 <p><br></p>
 </li>
 <li>
 <p>You can resize the virtual desktop with the <strong>Fit to window</strong> button, located at the top of the Skytap environment window.</p>
-<p><img alt="fit to window" src="lab1-media/media/image9.png" /></p>
+<p><img alt="fit to window" src="./lab1-media/media/image9.png" /></p>
 <p><br></p>
 </li>
 </ol>
@@ -226,25 +226,6 @@ Furthermore, this information can be exported to a CSV file to be shared amongst
 <p>Common vulnerabilities or exposures (CVEs) for each server are displayed in the WebSphere Automation UI in an interactive list, and each server is assessed a risk level. Administrators can learn more about the pertinent CVEs and plan their response.</p>
 <p>When the IBM Product Security Incident Response Team (PSIRT) publishes new or updated security bulletins, the WebSphere Automation CVE/PSIRT monitor detects them and collects the data about the CVEs from the bulletins. </p>
 <p>The WebSphere Automation vulnerability manager checks the applicability of the new CVEs to the registered servers. If exposures are found, the WebSphere Automation vulnerability notifier sends email notifications to a customizable list of addresses those new vulnerabilities exist.</p>
-<h3 id="clone-the-git-repository-used-for-this-lab-and-explore-the-contents">Clone the Git repository used for this lab and explore the contents</h3>
-<ol>
-<li>
-<p>Clone the GitHub repo with the lab artifacts, then run the following command on your terminal:
-    a.  Open a Terminal window on the VM, and ensure you are in the home directory of the user “ibmuser”</p>
-<pre><code>cd /home/ibmuser
-</code></pre>
-<p>b.  From the terminal window, run the following commands to  clone the repo:</p>
-<pre><code>git clone https://github.com/IBMTechSales/WAS-Automation-LabFiles.git
-</code></pre>
-<p><img alt="clone reo" src="lab1-media/media/clonerepo.png" /></p>
-<p>These commands above clone the public repo named WAS-Automation-LabFiles to the local directory under /home/ibmuser/WAS-Automation-LabFiles directory. </p>
-<p>c.  Change to the cloned directory in which the lab files are located </p>
-<pre><code>cd /home/ibmuser/WAS-Automation-LabFiles/lab1-CVE
-</code></pre>
-<p>d.  List the directory contents using the ls -l command </p>
-<p><img alt="list git dir" src="lab1-media/media/listdir.png" /></p>
-</li>
-</ol>
 <h3 id="accessing-the-websphere-automation-ui">Accessing the WebSphere Automation UI</h3>
 <p>A WebSphere administrator sets up WebSphere Automation by registering and configuring WebSphere Application Servers and WebSphere Liberty servers for vulnerability tracking and by configuring email notifications.</p>
 <p>WebSphere administrators can also view the results of vulnerability assessment in WebSphere Automation to plan their response for the WebSphere Application Server and WebSphere Liberty servers that they manage.</p>
@@ -254,51 +235,51 @@ Furthermore, this information can be exported to a CSV file to be shared amongst
 <p>On the <em>Student VM</em>, open a browser and enter the following URL (there is a WebSphere Automation link on bookmark toolbar):</p>
 <p><strong>Note:</strong> It takes about <strong>10-15 minutes</strong> for the environment to start and stabilize once it has started. If you encounter "<strong>Secure Connection Failed</strong>" or  "<strong>502 Gateway Error</strong>" accessing the WebSphere Automation URL, please wait a few minutes and retry. </p>
 <p><a href="https://cp-console.apps.demo.ibmdte.net/oidc/login.jsp#/homepage"><span class="underline">https://cp-console.apps.demo.ibmdte.net/oidc/login.jsp#/homepage</span></a></p>
-<p><img alt="opening browser" src="lab1-media/media/image10.png" /></p>
+<p><img alt="opening browser" src="./lab1-media/media/image10.png" /></p>
 <p><br></p>
 </li>
 <li>
 <p>On the login page, select the <strong>OpenShift authentication</strong> as the    authentication type.</p>
 <p><strong>Note:</strong> If using Firefox, enlarge the browser window until you see the graphics, as illustrated below. </p>
-<p><img alt="openshift authentication" src="lab1-media/media/image11.png" /></p>
+<p><img alt="openshift authentication" src="./lab1-media/media/image11.png" /></p>
 <p><strong>Note:</strong> If necessary, accept all the warnings and certificates.  Depending on your browser, you might have to scroll down to permit
  access.</p>
 <p><br></p>
 </li>
 <li>
 <p>Select <strong>htpasswd</strong> as the login selection</p>
-<p><img alt="ocp ui login" src="lab1-media/media/image12.png" /></p>
+<p><img alt="ocp ui login" src="./lab1-media/media/image12.png" /></p>
 <p><br></p>
 </li>
 <li>
 <p>Enter <strong>ibmadmin</strong> as username and <strong>engageibm</strong> as password. And click <strong>Log In</strong>.</p>
-<p><img alt="login page" src="lab1-media/media/image13.png" /></p>
+<p><img alt="login page" src="./lab1-media/media/image13.png" /></p>
 <p><br/></p>
 </li>
 <li>
 <p>The <strong><em>IBM Automation Welcome page</em></strong> appears.</p>
-<p><img alt="welcome page" src="lab1-media/media/image14.png" /></p>
+<p><img alt="welcome page" src="./lab1-media/media/image14.png" /></p>
 <p><br></p>
 </li>
 <li>
 <p>View the Application Runtimes that have been registered with IBM Automation</p>
 <p>a. Click on the<strong>Navigation Menu</strong> icon located at the upper left corner of the page</p>
-<p><img alt="notification config" src="lab1-media/media/image15.png" /></p>
+<p><img alt="notification config" src="./lab1-media/media/image15.png" /></p>
 <p>b. Click <strong>Operate</strong>, and then click <strong>Application runtimes</strong>.</p>
 <p>Application Runtimes represent the Traditional WebSphere and WebSphere Liberty servers that have been registered with IBM Automation</p>
-<p><img alt="notification config" src="lab1-media/media/image16.png" /></p>
+<p><img alt="notification config" src="./lab1-media/media/image16.png" /></p>
 <p><br/></p>
 </li>
 <li>
 <p>The <strong>Application runtimes – Security</strong> page appears. There should be no data since there not any WebSphere / Liberty servers registered yet.</p>
-<p><img alt="App rutime" src="lab1-media/media/image17.png" /></p>
+<p><img alt="App rutime" src="./lab1-media/media/image17.png" /></p>
 <p><br/></p>
 </li>
 <li>
 <p>Before you start to register servers to the Dashboard, you need to configure an email to received notifications about CVEs.</p>
 <p>a. Select the <strong>Notifications</strong> menu item from the navigation list.</p>
 <p>b. Click on the Email addresses tab, to add your email address where notifications of new CVEs will be delivered</p>
-<p><img alt="notification config" src="lab1-media/media/image18.png" /></p>
+<p><img alt="notification config" src="./lab1-media/media/image18.png" /></p>
 <p><br></p>
 </li>
 <li>
@@ -306,7 +287,7 @@ Furthermore, this information can be exported to a CSV file to be shared amongst
 <p>a. Click the <strong>Add</strong> buttton</p>
 <p>b. Enter your <strong>email address</strong></p>
 <p>c. Click <strong>Save</strong></p>
-<p><img alt="notification email" src="lab1-media/media/image19.png" /></p>
+<p><img alt="notification email" src="./lab1-media/media/image19.png" /></p>
 </li>
 </ol>
 <p><strong>Great!</strong> Your email is configured to receive security notifications.</p>
@@ -330,21 +311,21 @@ Furthermore, this information can be exported to a CSV file to be shared amongst
 <ol>
 <li>
 <p>Return to the desktop and open a new <strong>terminal</strong> window.</p>
-<p><img alt="open terminal" src="lab1-media/media/image20.png" /></p>
+<p><img alt="open terminal" src="./lab1-media/media/image20.png" /></p>
 <p><br></p>
 </li>
 <li>
 <p>Login to the OpenShift Cluster using the oc CLI command shown below:</p>
 <pre><code>oc login --username=ibmadmin --password=engageibm --insecure-skip-tls-verify=true --server=https://api.demo.ibmdte.net:6443
 </code></pre>
-<p><img alt="oc login" src="lab1-media/media/image21.png" /></p>
+<p><img alt="oc login" src="./lab1-media/media/image21.png" /></p>
 <p><br></p>
 </li>
 <li>
 <p>Make sure that the project you are working on is <strong>websphere-automation</strong>:</p>
 <pre><code>oc project websphere-automation
 </code></pre>
-<p><img alt="" src="lab1-media/media/image22.png" /></p>
+<p><img alt="" src="./lab1-media/media/image22.png" /></p>
 <p><br/></p>
 </li>
 <li>
@@ -356,7 +337,7 @@ Furthermore, this information can be exported to a CSV file to be shared amongst
 <p>View the contents of the saved file to ensure the URL was captured.</p>
 <pre><code>cat /opt/IBM/WebSphere/metering-url.txt
 </code></pre>
-<p><img alt="" src="lab1-media/media/image23.png" /></p>
+<p><img alt="" src="./lab1-media/media/image23.png" /></p>
 <p><br></p>
 </li>
 <li>
@@ -368,7 +349,7 @@ Furthermore, this information can be exported to a CSV file to be shared amongst
 <p>View the contents of the saved file to ensure the api-key (token) was captured.</p>
 <pre><code>cat /opt/IBM/WebSphere/api-key.txt
 </code></pre>
-<p><img alt="" src="lab1-media/media/image24.png" /></p>
+<p><img alt="" src="./lab1-media/media/image24.png" /></p>
 <p><br></p>
 </li>
 <li>
@@ -380,7 +361,7 @@ Furthermore, this information can be exported to a CSV file to be shared amongst
 <p>View the contents of the saved file to ensure the api-key (token) was captured.</p>
 <pre><code>cat /opt/IBM/WebSphere/cacert.pem
 </code></pre>
-<p><img alt="" src="lab1-media/media/image25.png" /></p>
+<p><img alt="" src="./lab1-media/media/image25.png" /></p>
 </li>
 </ol>
 <p><strong>Great!</strong> Now you have all the configuration parameters necessary to register the application servers with the usage metering service in WebSphere Automation.</p>
@@ -393,7 +374,7 @@ Furthermore, this information can be exported to a CSV file to be shared amongst
 </thead>
 <tbody>
 <tr>
-<td><img alt="" src="lab1-media/media/image4.png?cropResize=100,100" /></td>
+<td><img alt="" src="./lab1-media/media/image4.png?cropResize=100,100" /></td>
 <td align="left"><strong>For more information:</strong> <br> For additional details, view the section titled: <strong>Setting up security monitoring</strong> in the WebSphere Automation on-line documentation, or download it as a PDF from this URL: <a href="https://www.ibm.com/docs/en/ws-automation">https://www.ibm.com/docs/en/ws-automation</a></td>
 </tr>
 </tbody>
@@ -435,7 +416,7 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <p>First, let’s start the traditional WebSphere (tWAS) 9.0.5.7 server. Return to the terminal window and execute the command below:</p>
 <pre><code>/opt/IBM/WebSphere/AppServer9057/bin/startServer.sh tWAS_9057_server
 </code></pre>
-<p><img alt="" src="lab1-media/media/image26.png" /></p>
+<p><img alt="" src="./lab1-media/media/image26.png" /></p>
 <p><br></p>
 </li>
 <li>
@@ -444,14 +425,14 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <pre><code>/opt/IBM/WebSphere/AppServer9057/bin/wsadmin.sh -f /api-usagemetering/scripts/configuretWasUsageMetering.py url=$(cat /opt/IBM/WebSphere/metering-url.txt) apiKey=$(cat /opt/IBM/WebSphere/api-key.txt) trustStorePassword=th1nkpassword
 </code></pre>
 <p>The script should run successfully as illustrated below.</p>
-<p><img alt="" src="lab1-media/media/image27.png" /></p>
+<p><img alt="" src="./lab1-media/media/image27.png" /></p>
 <p><br></p>
 <p>Great, you first traditional WAS server is configured. Let’s check the WebSphere Automation dashboard. </p>
 <p></br></p>
 </li>
 <li>
 <p>Go back to the browser, navigate to the <strong>Security -&gt; Servers</strong> dashboard, and confirm that the tWAS v9.0.5.7 server was registered in IBM Automation.</p>
-<p><img alt="dashboard tWAS1" src="lab1-media/media/image28.png" /></p>
+<p><img alt="dashboard tWAS1" src="./lab1-media/media/image28.png" /></p>
 <p>You should see that this server Risk Level is 10.0, with 14 or more unresolved CVEs. </p>
 <p><strong>Note:</strong> Somewhere at the top of that list is the much talked about LOG4J vulnerability, known as CVE-2021-44228, with a critical score of 10.  </p>
 <table>
@@ -463,7 +444,7 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 </thead>
 <tbody>
 <tr>
-<td><img alt="" src="lab1-media/media/image4.png?cropResize=50,50" /></td>
+<td><img alt="" src="./lab1-media/media/image4.png?cropResize=50,50" /></td>
 <td align="left"><strong>TIP:</strong> <br><strong>Note:</strong> New vulnerabilities are discovered constantly, so the number of CVEs discovered may be different than illustrated.</td>
 </tr>
 </tbody>
@@ -472,7 +453,7 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 </li>
 <li>
 <p>Check your email. A mail notification was sent showing new vulnerabilities for the registered application server.</p>
-<p><img alt="" src="lab1-media/media/image29.png" /></p>
+<p><img alt="" src="./lab1-media/media/image29.png" /></p>
 <table>
 <thead>
 <tr>
@@ -482,7 +463,7 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 </thead>
 <tbody>
 <tr>
-<td><img alt="" src="lab1-media/media/image4.png?cropResize=100,100" /></td>
+<td><img alt="" src="./lab1-media/media/image4.png?cropResize=100,100" /></td>
 <td align="left"><strong>Information:</strong> <br>In the email message, there will be a link that would redirect to the console to show more details on the vulnerability. However, Because of network restrictions in the lab environment, this link will not work.</td>
 </tr>
 </tbody>
@@ -500,14 +481,14 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 </blockquote>
 <pre><code>/home/ibmuser/register-was-server.sh 9056
 </code></pre>
-<p><img alt="" src="lab1-media/media/imagev3-30.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-30.png" /></p>
 </li>
 </ol>
 <p>Great, your traditional WebSphere server is configured. Let’s check the WebSphere Automation dashboard.</p>
 <ol>
 <li>
 <p>Go back to the browser, navigate to the <strong>Security -></strong> <strong>Servers</strong> dashboard, and confirm that the tWAS v9.0.5.6 server was registered in IBM Automation.</p>
-<p><img alt="" src="lab1-media/media/imagev3-31.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-31.png" /></p>
 <p>You should see that this server Risk Level is 10.0, with 14 or more unresolved CVEs.</p>
 <blockquote>
 <p><strong>Note:</strong> Somewhere at the top of that list is the much talked about <strong>LOG4J vulnerability</strong>, known as <strong>CVE-2021-44228</strong>, with a critical score of <strong>10</strong>.</p>
@@ -520,14 +501,14 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <ol>
 <li>
 <p>Notice in the IBM Automation console that tWAS 9.0.5.7 is vulnerable to CVE-2021-44228.</p>
-<p><img alt="" src="lab1-media/media/imagev3-32.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-32.png" /></p>
 </li>
 <li>
 <p>Click on <strong>(+ \&lt;NUMBER> more)</strong> to expand the list of unresolved CVEs. </p>
 <p>IBM Automation also detected the additional unresolved CVEs related to the Log4J vulnerability, which are highlighted below and documented in the security bulletin.</p>
-<p><img alt="" src="lab1-media/media/imagev3-33.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-33.png" /></p>
 <p>As noted in the IBM security bulletin, which you will explore next, there are three CVEs related to the LOG4J vulnerability. They are highlighted below in the list of Unresolved CVEs for this WebSphere server.</p>
-<p><img alt="" src="lab1-media/media/imagev3-34.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-34.png" /></p>
 </li>
 <li>
 <p>After viewing the complete list of unresolved CVEs for the 9057 server, close the “<strong>Unresolved CVEs</strong>” view.</p>
@@ -535,7 +516,7 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <li>
 <p>View the security bulletin(s) for the <strong>CVE-2021-44228</strong> Log4J vulnerability</p>
 <p>a.  Click on <strong>CVE-2021-44228</strong> link under the 9057 servers <strong>Unresolved CVEs</strong> column</p>
-<p><img alt="" src="lab1-media/media/imagev3-35.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-35.png" /></p>
 <p>From the CVE Information page that is displayed, you can see important details about this CVE.</p>
 <p><u>Here you can see the following details:</u></p>
 <ul>
@@ -559,22 +540,22 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <p><strong>Note:</strong> The <strong>Days Exposed</strong> and <strong>date detected</strong> are expressed from the point of time that the server is registered with IBM WebSphere Automation.</p>
 </blockquote>
 <p>b.  Click on the <strong>View</strong> Link to view the IBM security bulletin for this CVE.</p>
-<p><img alt="" src="lab1-media/media/imagev3-36.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-36.png" /></p>
 <p>c.  The security bulletin is displayed in a new browser tab.</p>
 <p>d.  Review the security bulletin to learn about the vulnerability, versions of WebSphere affected, and options for remediating the vulnerability.</p>
-<p><img alt="" src="lab1-media/media/imagev3-37.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-37.png" /></p>
 <p>As you see, IBM WebSphere Automation makes it easy for you to get to the related security bulletins directly from the CVE information within the WebSphere Automation dashboard so you can have all the details and remediation options at your fingertips</p>
 <blockquote>
 <p><strong>Note:</strong> The IBM Security Bulletin associated with this vulnerability documents the options for remediating CVE-2021-44228 and related CVEs (CVE-2021-4104 and CVE-2021-45046)</p>
 </blockquote>
-<p><img alt="" src="lab1-media/media/imagev3-38.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-38.png" /></p>
 <p>You can read the security bulletins from the <strong>ibm.com/support</strong> pages. You may be prompted to login using your IBM ID to access the content:</p>
 <p><a href="https://www.ibm.com/support/pages/node/6525706">https://www.ibm.com/support/pages/node/6525706</a></p>
 <p><a href="https://www.ibm.com/support/pages/security-bulletin-multiple-vulnerabilities-apache-log4j-affect-ibm-websphere-application-server-and-ibm-websphere-application-server-liberty-cve-2021-4104-cve-2021-45046">https://www.ibm.com/support/pages/security-bulletin-multiple-vulnerabilities-apache-log4j-affect-ibm-websphere-application-server-and-ibm-websphere-application-server-liberty-cve-2021-4104-cve-2021-45046</a></p>
 </li>
 <li>
 <p>Return to the Browser tab that contains the IBM WebSphere Automation dashboard. Then return to the “<strong>Security</strong>” view</p>
-<p><img alt="" src="lab1-media/media/imagev3-39.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-39.png" /></p>
 </li>
 </ol>
 <h2 id="34-update-twas-server-v9057-to-fix-the-log4j-vulnerability">3.4 Update tWAS server v9.0.5.7 to fix the LOG4J vulnerability</h2>
@@ -585,7 +566,7 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <p>First, stop the server, wait until it has stopped:</p>
 <pre><code>/opt/IBM/WebSphere/AppServer9057/bin/stopServer.sh tWAS_9057_server
 </code></pre>
-<p><img alt="" src="lab1-media/media/image33.png" /></p>
+<p><img alt="" src="./lab1-media/media/image33.png" /></p>
 <p><br></p>
 </li>
 <li>
@@ -593,7 +574,7 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <pre><code>sudo /iFix/PH42762-LOG4J/imcl_ifix_install.sh 9057
 </code></pre>
 <p>When prompted for the password for the ibmadmin user, enter: <strong>engageibm!</strong></p>
-<p><img alt="" src="lab1-media/media/image34.png" /></p>
+<p><img alt="" src="./lab1-media/media/image34.png" /></p>
 <p><br></p>
 </li>
 <li>
@@ -603,12 +584,12 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 </li>
 <li>
 <p>Go back to the WebSphere Automation dashboard. Notice that the CVE-2021-44228, CVE-2021-4104, and CVE-2021-45046 were removed from the unresolved CVEs list for the tWAS 9.0.5.7 server.</p>
-<p><img alt="cves resolved" src="lab1-media/media/image35.png" /></p>
+<p><img alt="cves resolved" src="./lab1-media/media/image35.png" /></p>
 <p><br></p>
 </li>
 <li>
 <p>Also, you can see on the right under “Applied iFixes” the PH42762 fix is now listed as applied. </p>
-<p><img alt="ifix applied" src="lab1-media/media/image36.png" /></p>
+<p><img alt="ifix applied" src="./lab1-media/media/image36.png" /></p>
 <p><br></p>
 </li>
 </ol>
@@ -623,11 +604,11 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <li>
 <p>View the tWAS_9057_server CVE Information</p>
 <p>a. From the <strong>Security</strong> view in the WebSphere Automation dashboard, click on the <strong>tWAS_9057_server</strong> link located under the <strong>Server</strong> column</p>
-<p><img alt="" src="lab1-media/media/imagev3-44.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-44.png" /></p>
 <p>b.  Select the <strong>Information</strong> tab</p>
-<p><img alt="" src="lab1-media/media/imagev3-45.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-45.png" /></p>
 <p>c.  From the <strong>Information</strong> view, you can see the list of Installed IFixes for the 9057 server.</p>
-<p><img alt="" src="lab1-media/media/imagev3-46.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-46.png" /></p>
 <blockquote>
 <p>Notice that the <strong>Fixed date</strong> for the iFixes related to the Log4J vulnerability show that they were installed moments ago.</p>
 <p>However, there are additional iFixes that do not have a Fixed date. That is because these fixes were already applied to the server prior to it being registered with IBM WebSphere Automation.</p>
@@ -641,7 +622,7 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 </thead>
 <tbody>
 <tr>
-<td><img alt="sign-info" src="lab1-media/media/image4.png" /></td>
+<td><img alt="sign-info" src="./lab1-media/media/image4.png" /></td>
 <td>IBM WebSphere Automation reports ALL iFixes that have been applied, regardless of when they were applied. However. It can only determine fix dates, number of days the server was vulnerable, and vulnerability detected date for servers from the time the WebSphere server is registered with IBM WebSphere Automation.</td>
 </tr>
 </tbody>
@@ -650,9 +631,9 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <li>
 <p>View the tWAS_9057_server CVE Vulnerabilities details</p>
 <p>a.  From the tWS_9057_server view, select the <strong>Vulnerabilities</strong> tab</p>
-<p><img alt="" src="lab1-media/media/imagev3-47.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-47.png" /></p>
 <p>b. From the list of CVEs, sort by <strong>Status</strong>, and display the <strong>Resolved CVEs</strong> on top</p>
-<p><img alt="" src="lab1-media/media/imagev3-48.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-48.png" /></p>
 <p>The CVEs that are listed as Resolved are all the related Log4JCVEs that were fixed by applying the iFix moments ago; <strong>CVE-2021-44228</strong>, being the most critical CVE listed.</p>
 <p>As illustrated above, the <strong>Vulnerabilities view</strong> provides the details about when the vulnerability was detected in this specific server, and how many days the server has been exposed to each vulnerability.</p>
 </li>
@@ -660,18 +641,18 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <p>View the tWAS_9057_server Fix History details</p>
 <p>a.  From the tWS_9057_server view, select the <strong>Vulnerabilities</strong> tab</p>
 <p>b. Select <strong>Fix History</strong>, as illustrated below:</p>
-<p><img alt="" src="lab1-media/media/imagev3-49.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-49.png" /></p>
 </li>
 <li>
 <p>Notice the Fixes that have been applied</p>
-<p><img alt="" src="lab1-media/media/imagev3-50.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-50.png" /></p>
 <p><strong>Fix history</strong> shows changes to the server. You can see the action that was taken, and in this case, the Fixes were “<strong>Installed</strong>”. Next to each Fix you can view the CVEs that were resolved by that Fix, and very importantly, the date that the Fix was applied that resolved specific vulnerabilities.</p>
 <p>Having this record of all detected security vulnerabilities (CVEs) and the resolution status makes it easy to respond to patching SLA inquiries. WebSphere Automation keeps track of when vulnerabilities were detected, when and how they were fixed, and how many days servers were exposed.</p>
 </li>
 <li>
 <p>You can also monitor the status of common vulnerabilities and exposures (CVEs) that affect your servers</p>
 <p>a.  Return to the <strong>Security</strong> view. Then select on the <strong>CVEs</strong> category</p>
-<p><img alt="" src="lab1-media/media/imagev3-51.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-51.png" /></p>
 <blockquote>
 <p>Using this view, you can easily determine which servers are affected by specific CVEs.</p>
 <p>As an example, let’s focus on CVE-2021-44228. This is one of the CVEs that was fixed in the tWAS_9057_server when you applied the iFix earlier in the lab.</p>
@@ -679,14 +660,14 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <p>This CVEs view helps your team quicky identify how many servers have been fixed, and how many remain exposed to specific CVEs.</p>
 </blockquote>
 <p>b. View the CVE-2021-44228 CVE from the current view. Notice that only one of two servers are patched for this CVE.</p>
-<p><img alt="" src="lab1-media/media/imagev3-52.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-52.png" /></p>
 </li>
 <li>
 <p>Identify the WebSphere servers that this CVE is still unresolved.</p>
 <p>a.  Click on the <strong>CVE-2021-44228</strong> link under the <strong>CVE</strong> column</p>
-<p><img alt="" src="lab1-media/media/imagev3-53.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-53.png" /></p>
 <p>b.  Note the <strong>tWAS_9056_server</strong> Vulnerability Status is “<strong>Unresolved</strong>” and needs to be patched. You will <strong>not</strong> patch this server in the lab.</p>
-<p><img alt="" src="lab1-media/media/imagev3-54.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-54.png" /></p>
 <p>In this section you have learned how easy IBM Automation makes it for your Information technology operations teams to be responsive to the latest security vulnerabilities, ensuring that there is a record of patching critical CVEs in accordance with your patching service-level agreement (SLA.</p>
 <p>You learned how to demonstrate when the date that a vulnerability was detected, and the date that the fix was applied. WebSphere Automation provides a detailed history of fixes applied to each registered server, including information about when each issue was detected, when and how it was fixed, and how many days servers were exposed.</p>
 </li>
@@ -714,24 +695,24 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 </li>
 <li>
 <p>Go back to the WebSphere Automation Dashboard on your browser. Notice that CVE-2021-44228, CVE-2021-4104, and CVE-2021-45046 are once again listed as unresolved CVEs for the tWAS 9.0.5.7 server.</p>
-<p><img alt="CVE 2021 44228" src="lab1-media/media/image37.png" /></p>
+<p><img alt="CVE 2021 44228" src="./lab1-media/media/image37.png" /></p>
 </li>
 <li>
 <p>Check the servers now exposed to CVE-2021-44228</p>
 <p>a.  Return to the <strong>Security</strong> view. Then click on <strong>CVEs</strong> category. Notice that two servers are now vulnerable this CVE.</p>
-<p><img alt="" src="lab1-media/media/imagev3-56.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-56.png" /></p>
 <p>b. Click on the CVE-221-44228 link under the CVE column to list the vulnerable servers</p>
-<p><img alt="" src="lab1-media/media/imagev3-57a.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-57a.png" /></p>
 <p>c. The CVE information for CVE-2021-44228 is displayed, as illustrated below. </p>
 <blockquote>
 <p>With this view, you can easily identify the exact servers that are vulnerable to the unresolved CVE. </p>
 </blockquote>
-<p><img alt="" src="lab1-media/media/imagev3-57.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-57.png" /></p>
 <p>d.  Click on the <strong>tWAS_9057_server</strong> link under the <strong>Servers</strong> column. Then select Fix History to view the latest actions for that server</p>
 <blockquote>
 <p>Note the Action of <strong>Uninstalled</strong> next to the FIXES that have been uninstalled by uninstalling the iFix</p>
 </blockquote>
-<p><img alt="" src="lab1-media/media/imagev3-58.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-58.png" /></p>
 <p><br></p>
 </li>
 </ol>
@@ -761,7 +742,7 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <p>Create a new Liberty server, version 20.0.0.9, using the command below:</p>
 <pre><code>/opt/IBM/WebSphere/Liberty20009/bin/server create Liberty_20009_server
 </code></pre>
-<p><img alt="2009 server created" src="lab1-media/media/image38.png" /></p>
+<p><img alt="2009 server created" src="./lab1-media/media/image38.png" /></p>
 <p><br></p>
 </li>
 <li>
@@ -775,7 +756,7 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <p>Start the Liberty server:</p>
 <pre><code>/opt/IBM/WebSphere/Liberty20009/bin/server start Liberty_20009_server
 </code></pre>
-<p><img alt="starting server 20009" src="lab1-media/media/image39.png" /></p>
+<p><img alt="starting server 20009" src="./lab1-media/media/image39.png" /></p>
 <p><br></p>
 </li>
 <li>
@@ -783,7 +764,7 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <p>The command below will import the “<strong>cacert.pem</strong>” file, that you saved in part 2 of the lab, into the Liberty trust store, thereby trusting the server for secure HTTPS connections from IBM Automation.</p>
 <pre><code>keytool -import -trustcacerts -file /opt/IBM/WebSphere/cacert.pem -keystore /opt/IBM/WebSphere/Liberty20009/usr/servers/Liberty_20009_server/resources/security/key.p12 -storetype PKCS12 -storepass th1nkpassword -noprompt
 </code></pre>
-<p><img alt="certificate store" src="lab1-media/media/image40.png" /></p>
+<p><img alt="certificate store" src="./lab1-media/media/image40.png" /></p>
 <p><br></p>
 </li>
 <li>
@@ -794,12 +775,12 @@ For each server, the numerical risk level in the range 0 - 10 represents the hig
 <p>b.  Add the <strong>usageMetering-1.0</strong> feature to the existing features in the &lt;featureManager> element, as illustrated below:</p>
 <pre><code>&lt;feature&gt;usageMetering-1.0&lt;/feature&gt;
 </code></pre>
-<p><img alt="" src="lab1-media/media/image41.png" />
+<p><img alt="" src="./lab1-media/media/image41.png" />
 <br></p>
 <p>c.  In the server.xml file, add the <strong>usageMetering</strong> element below:</p>
 <pre><code>&lt;usageMetering url="${metering-url}" apiKey="${api-key}" sslRef="defaultSSL"/&gt;
 </code></pre>
-<p><img alt="usage metering 20009" src="lab1-media/media/image42.png" /></p>
+<p><img alt="usage metering 20009" src="./lab1-media/media/image42.png" /></p>
 <p><br></p>
 </li>
 <li>
@@ -818,7 +799,7 @@ echo "api-key=$(cat /opt/IBM/WebSphere/api-key.txt)" &gt;&gt; /opt/IBM/WebSphere
 <pre><code>cat /opt/IBM/WebSphere/Liberty20009/usr/servers/Liberty_20009_server/bootstrap.properties
 </code></pre>
 <p>The <strong>metering-url</strong> and <strong>api-key</strong> variables should have values as illustrated below. </p>
-<p><img alt="bootstrap properties" src="lab1-media/media/image43.png" /></p>
+<p><img alt="bootstrap properties" src="./lab1-media/media/image43.png" /></p>
 <p><br> </p>
 </li>
 <li>
@@ -828,21 +809,21 @@ echo "api-key=$(cat /opt/IBM/WebSphere/api-key.txt)" &gt;&gt; /opt/IBM/WebSphere
 
 /opt/IBM/WebSphere/Liberty20009/bin/server start Liberty_20009_server --clean
 </code></pre>
-<p><img alt="restarted Liberty server" src="lab1-media/media/image44.png" /></p>
+<p><img alt="restarted Liberty server" src="./lab1-media/media/image44.png" /></p>
 <p><br></p>
 </li>
 <li>
 <p>View the Liberty server “<strong>messages.log</strong>” file and find the message indicating that the server was registered to the metering service.  </p>
 <pre><code>tail /opt/IBM/WebSphere/Liberty20009/usr/servers/Liberty_20009_server/logs/messages.log
 </code></pre>
-<p><img alt="librty log" src="lab1-media/media/image45.png" /></p>
+<p><img alt="librty log" src="./lab1-media/media/image45.png" /></p>
 <p><br> </p>
 <p>The Liberty009 server is now successfully registered with IBM Automation, and should be displayed in the IBM Automation Dashboard under Application runtimes &gt; Security - Servers.</p>
 <p><br></p>
 </li>
 <li>
 <p>Go back to the browser, navigate to the <strong>Security -&gt; Servers</strong> dashboard, and confirm that the Liberty_20009_server was registered in IBM Automation</p>
-<p><img alt="app runtimes servers" src="lab1-media/media/image46.png" /></p>
+<p><img alt="app runtimes servers" src="./lab1-media/media/image46.png" /></p>
 <p><br></p>
 <table>
 <thead>
@@ -853,7 +834,7 @@ echo "api-key=$(cat /opt/IBM/WebSphere/api-key.txt)" &gt;&gt; /opt/IBM/WebSphere
 </thead>
 <tbody>
 <tr>
-<td><img alt="" src="lab1-media/media/image47.png?cropResize=50,50" /></td>
+<td><img alt="" src="./lab1-media/media/image47.png?cropResize=50,50" /></td>
 <td align="left"><strong>IMPORTANT:</strong> <br><br> If the IBM Automation UI does not automatically detect the Liberty server that you registered, then it is extremely likely that the server.xml file or the bootstrap.properties file has not been configured correctly. <br><br> 1. Review the <strong>server.xml</strong> configuration. <br> &nbsp;&nbsp;&nbsp;&nbsp;- Ensure the <strong>usageMetering-1.0</strong> feature is included in the list of features. <br><br> 2. Review the <strong>bootstrap.properties</strong> file<br> &nbsp;&nbsp;&nbsp;&nbsp;- Ensure the usageMetering <strong>url</strong> is CORRECT. No additional characters or spaces. <br> &nbsp;&nbsp;&nbsp;&nbsp;- Ensure the usageMetering <strong>apiKey</strong> is CORRECT. No additional characters or spaces.</td>
 </tr>
 </tbody>
@@ -868,7 +849,7 @@ echo "api-key=$(cat /opt/IBM/WebSphere/api-key.txt)" &gt;&gt; /opt/IBM/WebSphere
 </thead>
 <tbody>
 <tr>
-<td><img alt="" src="lab1-media/media/image4.png?cropResize=50,50" /></td>
+<td><img alt="" src="./lab1-media/media/image4.png?cropResize=50,50" /></td>
 <td align="left"><strong>TIP:</strong> <br><br><strong>Note:</strong> New vulnerabilities are discovered constantly, so the number of CVEs discovered may be different than illustrated.</td>
 </tr>
 </tbody>
@@ -879,15 +860,15 @@ echo "api-key=$(cat /opt/IBM/WebSphere/api-key.txt)" &gt;&gt; /opt/IBM/WebSphere
 <li>
 <p>Click on the “<strong>+6 more</strong>” under the Unresolved CVEs for the Liberty_20009_server, to see the list of the unresolved CVEs, including the CVE-2020-10693.</p>
 <p>Note that the +6 could be different if additional CVEs have been discovered since the time of this writing. </p>
-<p><img alt="app runtimes servers" src="lab1-media/media/image48.png" /></p>
+<p><img alt="app runtimes servers" src="./lab1-media/media/image48.png" /></p>
 <p><br></p>
 <p>a. The list of Unresolved CVEs for Liberty version 20.0.0.9 should include CVE-2020-10693</p>
-<p><img alt="app runtimes servers" src="lab1-media/media/image49.png" /></p>
+<p><img alt="app runtimes servers" src="./lab1-media/media/image49.png" /></p>
 <p><br></p>
 </li>
 <li>
 <p>Check your email that you registered with IBM automation for a notification of new vulnerability. </p>
-<p><img alt="email" src="lab1-media/media/image50.png" /></p>
+<p><img alt="email" src="./lab1-media/media/image50.png" /></p>
 <p><br></p>
 </li>
 </ol>
@@ -898,11 +879,11 @@ echo "api-key=$(cat /opt/IBM/WebSphere/api-key.txt)" &gt;&gt; /opt/IBM/WebSphere
 <li>
 <p>View the CVE information for CVE-2020-10963</p>
 <p>a. Click the <strong>Liberty_2009_server</strong> link under the Server column to see CVE and Fix History for this Liberty server</p>
-<p><img alt="" src="lab1-media/media/imagev3-72.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-72.png" /></p>
 <p>b. Click on CVE-2020-10693 CVE located in the <strong>Vulnerabilities &gt; CVEs</strong> view</p>
-<p><img alt="" src="lab1-media/media/imagev3-73.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-73.png" /></p>
 <p>c.  The <strong>CVE information page</strong> for CVE-2020-10693 is displayed.</p>
-<p><img alt="" src="lab1-media/media/imagev3-74.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-74.png" /></p>
 <p>From the CVE Information page that is displayed, you can see important details about this CVE.</p>
 <p><u>Here you can see the following details:</u></p>
 <ul>
@@ -928,23 +909,23 @@ echo "api-key=$(cat /opt/IBM/WebSphere/api-key.txt)" &gt;&gt; /opt/IBM/WebSphere
 </li>
 <li>
 <p>Click on the <strong>View</strong> Link to view the IBM security bulletin for this CVE.</p>
-<p><img alt="" src="lab1-media/media/imagev3-75.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-75.png" /></p>
 <p>The security bulletin is displayed in a new browser tab.</p>
 </li>
 <li>
 <p>From the Web Browser, review the security bulletin to learn about the vulnerability, versions of WebSphere affected, and options for remediating the vulnerability.</p>
-<p><img alt="" src="lab1-media/media/imagev3-76.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-76.png" /></p>
 <p>As you see, IBM WebSphere Automation makes it easy for you to get to the related security bulletins directly from the CVE information within the WebSphere Automation dashboard so you can have all the details and remediation options at your fingertips</p>
 <blockquote>
 <p><strong>Note:</strong> The IBM Security Bulletin associated with this vulnerability documents the options for remediating CVE-2020-10693</p>
 </blockquote>
-<p><img alt="" src="lab1-media/media/imagev3-77.png" /></p>
-<p><img alt="" src="lab1-media/media/imagev3-78.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-77.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-78.png" /></p>
 <p>In the next section of the lab, you will appl the Interim Fix <strong>PH29942</strong> to remediate the unresolved CVE.</p>
 </li>
 <li>
 <p>When you finish reviewing the security bulletin, return to the Browser tab that contains the IBM WebSphere Automation dashboard. Then return to the “<strong>Security</strong>” view</p>
-<p><img alt="" src="lab1-media/media/imagev3-79.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-79.png" /></p>
 </li>
 </ol>
 <h2 id="43-update-liberty-server-v20009-to-fix-the-vulnerability">4.3 Update Liberty server v20.0.0.9 to fix the vulnerability</h2>
@@ -967,7 +948,7 @@ echo "api-key=$(cat /opt/IBM/WebSphere/api-key.txt)" &gt;&gt; /opt/IBM/WebSphere
 <pre><code>sudo /iFix/PH29942/imcl_ifix_install.sh 20009
 </code></pre>
 <p>When prompted for the password for ibmuser, enter: <strong>engageibm!</strong></p>
-<p><img alt="apply fix" src="lab1-media/media/image55.png" /></p>
+<p><img alt="apply fix" src="./lab1-media/media/image55.png" /></p>
 <p><br></p>
 </li>
 <li>
@@ -977,11 +958,11 @@ echo "api-key=$(cat /opt/IBM/WebSphere/api-key.txt)" &gt;&gt; /opt/IBM/WebSphere
 </li>
 <li>
 <p>Return to the <strong>WebSphere Automation Dashboard.</strong> </p>
-<p><img alt="" src="lab1-media/media/imagev3-81.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-81.png" /></p>
 </li>
 <li>
 <p>Note that the IBM Automation dashboard shows the iFIX PH29942 has been applied to the Liberty_20009_server.</p>
-<p><img alt="" src="lab1-media/media/imagev3-83a.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-83a.png" /></p>
 <p><br></p>
 </li>
 </ol>
@@ -996,11 +977,11 @@ echo "api-key=$(cat /opt/IBM/WebSphere/api-key.txt)" &gt;&gt; /opt/IBM/WebSphere
 <li>
 <p>View the Liberty_20009_server CVE Information</p>
 <p>a.  From the <strong>Security</strong> view in the WebSphere Automation dashboard, click on the <strong>Liberty_20009_server</strong> link located under the <strong>Server</strong> column</p>
-<p><img alt="" src="lab1-media/media/imagev3-83.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-83.png" /></p>
 <p>b.  Select the <strong>Information</strong> tab</p>
-<p><img alt="" src="lab1-media/media/imagev3-84.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-84.png" /></p>
 <p>c. From the <strong>Information</strong> view, you can see the list of Installed iFixes for the Liberty server.</p>
-<p><img alt="" src="lab1-media/media/imagev3-85.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-85.png" /></p>
 <p>Notice that the <strong>Fixed date</strong> for the iFixes related to the vulnerability show that it was fixed moments ago.</p>
 <p><table>
 <tbody>
@@ -1016,39 +997,39 @@ echo "api-key=$(cat /opt/IBM/WebSphere/api-key.txt)" &gt;&gt; /opt/IBM/WebSphere
 <li>
 <p>View the Liberty_20009_server CVE Vulnerabilities details</p>
 <p>a.  From the Liberty_20009_server view, select the <strong>Vulnerabilities</strong> tab</p>
-<p><img alt="" src="lab1-media/media/imagev3-86.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-86.png" /></p>
 <p>b.  From the list of CVEs, sort by <strong>Status</strong>, and display the <strong>Resolved CVEs</strong> on top. The <strong>CVE-2020-10693</strong> is now <strong>Resolved</strong>.</p>
-<p><img alt="" src="lab1-media/media/imagev3-87.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-87.png" /></p>
 <p>As illustrated above, the <strong>Vulnerabilities view</strong> provides the details about when the vulnerability was detected in this specific server, and how many days the server has been exposed to each vulnerability.</p>
 </li>
 <li>
 <p>View the Liberty_20009_server Fix History details</p>
 <p>a.  From the Liberty_20009_server view, select the <strong>Vulnerabilities</strong> tab</p>
 <p>b.  Select <strong>Fix History</strong>, as illustrated below:</p>
-<p><img alt="" src="lab1-media/media/imagev3-88.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-88.png" /></p>
 </li>
 <li>
 <p>Notice there is now a record that shows that the iFix has been installed, and the date te server was patched.</p>
-<p><img alt="" src="lab1-media/media/imagev3-89.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-89.png" /></p>
 <p><strong>Fix history</strong> shows changes to the server. You can see the action that was taken, and in this case, the Fixes were “<strong>Installed</strong>”. Next to each Fix you can view the CVEs that were resolved by that Fix, and very importantly, the date that the Fix was applied that resolved specific vulnerabilities.</p>
 <p>Having this record of all detected security vulnerabilities (CVEs) and the resolution status makes it easy to respond to patching SLA inquiries. WebSphere Automation keeps track of when vulnerabilities were detected, when and how they were fixed, and how many days servers were exposed.</p>
 </li>
 <li>
 <p>You can also monitor the status of common vulnerabilities and exposures (CVEs) that affect your servers</p>
 <p>a.  Return to the <strong>Security</strong> view. Then select on the <strong>CVEs</strong> category</p>
-<p><img alt="" src="lab1-media/media/imagev3-90.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-90.png" /></p>
 <p>Using this view, you can easily determine which servers are affected by specific CVEs.</p>
 <p>As an example, let’s focus on CVE-2020-10693. This is the CVEs that was fixed in the Liberty when you applied the iFix moments ago.</p>
 <p>This <strong>CVEs view</strong> helps your team quicky identify how many servers have been fixed, and how many remain exposed to specific CVEs.</p>
 <p>b.  Locate and view the CVE-2020-10693 CVE from the current view. Sort the list of CVEs by Fixed Servers, which will list the CVEs that have been applied to the Liberty server at the top of the list.</p>
-<p><img alt="" src="lab1-media/media/imagev3-91.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-91.png" /></p>
 </li>
 <li>
 <p>Identify the Liberty servers that this CVE has been resolved, and potentially still unresolved.</p>
 <p>a.  Click on the <strong>CVE-2020-10693</strong> link under the <strong>CVE</strong> column</p>
-<p><img alt="" src="lab1-media/media/imagev3-92.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-92.png" /></p>
 <p>b.  Note the <strong>Liberty_20009_server</strong> Vulnerability Status is “<strong>Resolved</strong>”.</p>
-<p><img alt="" src="lab1-media/media/imagev3-93.png" /></p>
+<p><img alt="" src="./lab1-media/media/imagev3-93.png" /></p>
 <p>In this section you have learned how easy IBM Automation makes it for your Information technology operations teams to be responsive to the latest security vulnerabilities, ensuring that there is a record of patching critical CVEs in accordance with your patching service-level agreement (SLA.</p>
 <p>You learned how to demonstrate when the date that a vulnerability was detected, and the date that the fix was applied. WebSphere Automation provides a detailed history of fixes applied to each registered server, including information about when each issue was detected, when and how it was fixed, and how many days servers were exposed.</p>
 </li>
@@ -1092,14 +1073,9 @@ echo "api-key=$(cat /opt/IBM/WebSphere/api-key.txt)" &gt;&gt; /opt/IBM/WebSphere
       
     </span>
 </div>
-    <script>var base_url = '.';</script>
-    <script src="js/theme.js" defer></script>
-      <script src="search/main.js" defer></script>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
 
 </body>
 </html>
-
-<!--
-MkDocs version : 1.0.4
-Build Date UTC : 2022-03-31 16:41:49
--->
