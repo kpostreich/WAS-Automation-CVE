@@ -834,7 +834,7 @@ In the next section of the lab, you will review the updated security posture and
 
 ## 3.4 View the security posture and Fix History of your WebSphere servers
 
-## **Fix history**
+### 3.4.1 Fix history
 
 Information technology operations teams must be responsive to the latest security vulnerabilities. A patching service-level agreement (SLA) requires that an operations teams fix vulnerabilities within 30, 60 or 90 days (or faster) based on vulnerability severity.
 
