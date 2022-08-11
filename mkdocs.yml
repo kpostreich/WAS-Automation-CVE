@@ -1,5 +1,0 @@
-site_name: IBM WebSphere Automation Lab
-nav:
-  - Hand-on Lab: index.md
-theme: readthedocs
-extra_css: ["extra.css"]
