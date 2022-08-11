@@ -669,7 +669,7 @@ In this lab, you will apply the iFix that is documented in the IBM security bull
 
     > **Note:** The IBM Security Bulletin associated with this vulnerability documents the options for remediating CVE-2021-44228 and related CVEs (CVE-2021-4104 and CVE-2021-45046)
 
-    ![](./lab1-media/media/imagev3-38.png)
+    ![](./lab1-media/media/image32.png)
 
     You can read the security bulletins from the **ibm.com/support** pages. You may be prompted to login using your IBM ID to access the content:
 
