@@ -2,11 +2,16 @@
 
 ![banner](./lab1-media/media/image1.jpeg)
 
-**Last updated:** October 2022
+**Last updated:** November 2022
 
 **Duration:** 90 mins
 
-Need support? Contact **Kevin Postreich** - kevinlp@us.ibm.com
+Need support? 
+
+  - **Kevin Postreich** - kevinlp@us.ibm.com
+
+  - **Yi Tang** - yitang@us.ibm.com
+
 
 ## Introduction to WebSphere Automation
 
@@ -82,7 +87,7 @@ You will use the **one-click Fix Deployment** capability of WebSphere Automation
 
 ![](./lab1-media/media/image3.png)
 
-## Accessing and starting the environment
+## Accessing the environment
 
 If you are doing this lab as part of an instructor led workshop (virtual or face to face), an environment has already been provisioned for you. The instructor will provide the details for accessing the lab environment.
 
@@ -91,43 +96,57 @@ Otherwise, you will need to reserve an environment for the lab. You can obtain o
 <https://techzone.ibm.com/my/reservations/create/60da2c20e2cb7a001f656575>
 
 
-1.  When the demo environment is provisioned, use the provided username and password to access and start the environment. You should see the following screen:
+1.  Access the lab environment from your web browser. 
+    
+    a.  When the demo environment is provisioned, right-mouse click on the **Published Service** link and open the URL in a new private or incognito browser window, as described below:  
+    
+    - If using **Google Chrome** browser, select **"Open link in incognito window"** from the context menu. 
 
-    ![](./lab1-media/media/image5.png)
+      ![](./lab1-media/media/chrome-incognito.png)
+    
+    - If using **Firefox** browser, select **"Open link in new private window"** from the context menu. 
 
-     WebSphere Automation is pre-installed in the OCP cluster hosted on the VMs.
+      ![](./lab1-media/media/chrome-incognito.png)
+
+    b. Click on the **"vnc.html"** link to open the lab environment through the **noVNC** interface. 
+
+      ![](./lab1-media/media/vnc-link.png)
+
+ 
+    c. Click the **Connect** button 
+    
+      ![](./lab1-media/media/vnc-connect.png)
+
+    d. Enter the password as:  **passw0rd**. Then click the **Send Credentials** button to access the lab environment. 
+
+    > Note: That is a numeric zero in passw0rd  
+
+      ![](./lab1-media/media/vnc-password.png)
+
+
+    IBM WebSphere Automation is pre-installed in the OCP cluster hosted on the VMs.
 	 
 	 <br>
 	 
-2. If the environment is **NOT** already started, go ahead, and **Start** the environment by clicking on the **Play** button. It takes about 10-15 minutes for the environment to start and stabilize.
 
-    ![](./lab1-media/media/image6.png)
+3. The Published Service provides access to the **STUDENT** VM through the noVNC interface for the lab environment. 
 
-    <br> 
-
-3. You will be working on the **STUDENT** VM only. 
-
-    All the WebSphere **images** and **iFixes** required for the lab are pre-installed:
+    All the WebSphere **images** and **iFixes** required for the lab are pre-installed on the VM:
 
     - /opt/IBM/WebSphere/Liberty20009/
 
     - /opt/IBM/WebSphere/AppServer9057/
 
     <br>
-	
-4.  Click the screen representing the **STUDENT** VM
 
-    ![student vm](./lab1-media/media/image7.png)
-
-    <br>
 	
-5.  Once you log in to the Student VM you will see the Desktop, which     contains all the programs that you will be using (browsers, terminal, etc.)
+5.  Once you log in to the Student VM you will see the Desktop, which contains all the programs that you will be using (browsers, terminal, etc.)
 
     The login credentials for the **STUDENT”** image is:
  
      - User ID: **ibmuser**
 
-     - Password: **engageibm\!**
+     - Password: **engageibm**
 	 
 	 <br>
  
@@ -135,9 +154,37 @@ Otherwise, you will need to reserve an environment for the lab. You can obtain o
 	 
 	 <br>
 
-6.  You can resize the virtual desktop with the **Fit to window** button, located at the top of the Skytap environment window.
+## Tips for working the in lab environment     
 
-    ![fit to window](./lab1-media/media/image9.png)
+1.  You can use your Browsers **zoom in** and **zoom out** options to resize the virtual desktop to fit your screen.
+
+    The examples below are using Firefox and Chrome browsers. 
+
+    - Firefox example: 
+    
+    ![fit to window](./lab1-media/media/zoom.png)
+
+    - Chrome example: 
+      
+     ![fit to window](./lab1-media/media/zoom-chrome.png)
+
+
+2.  You can copy / paste text from the lab guide into the lab environment using the clipboard in the noVNC viewer. 
+   
+    a. Copy the text from the lab guide that you want to paste into the lab environment
+    
+    b. Click the **Clipboard** icon and **paste** the text into the noVNC clipboard
+
+    ![fit to window](./lab1-media/media/paste.png)
+    
+    c. Paste the tect into the VM, such as to a terminal window, browser window, etc. 
+
+    d. Click on the **clipboard** icon agian to close the clipboard
+
+    > **NOTE:** Sometimes pasting into a Terminal window in the VM does not work consistently. In this case you might try again, or paste the text into a **Text Editor** in the VM, and then paste it into the Terminal window in the VM. 
+
+3. An alternative to using the noVNC Copy / Paste option, you may considr openeing the lab guide in a web browser inside of the VM. Using this method, you can easily copy / paste text from the lab guide wihout having to use the noVNC clipboard. 
+
 
     <br>
 
@@ -234,7 +281,7 @@ You will do these steps in this section of the lab, to become familiar with conf
 
     a. When prompted to continue connection, type `yes`
 
-    b. When prompted for the password for ibmuser@student.demo.ibmdte.net, type `engageibm!` as the password. 
+    b. When prompted for the password for ibmuser@student.demo.ibmdte.net, type `engageibm` as the password. 
 
     Ensure the message indicates that 1 key was **added** to the users key store. 
 
@@ -991,7 +1038,7 @@ In this section, you configure Liberty Server version 20.0.0.9 to register to We
 
         sudo \cp -f /home/ibmuser/Desktop/lab_backup/liberty20009/server_tls.xml /opt/IBM/WebSphere/Liberty20009/usr/servers/Liberty_20009_server/server.xml
 
-    When prompted for the password for ibmuser, enter: **engageibm!**
+    When prompted for the password for ibmuser, enter: **engageibm**
 
 	<br>
 
@@ -1521,7 +1568,7 @@ In this section, you will apply an iFix to the traditional WebSphere 9.0.5.7 ser
 
         sudo /iFix/PH42762-LOG4J/imcl_ifix_install.sh 9057
 
-    When prompted for the password for the ibmadmin user, enter: **engageibm!**
+    When prompted for the password for the ibmadmin user, enter: **engageibm**
 
     ![](./lab1-media/media/image34.png)
 	
@@ -1557,7 +1604,7 @@ You can remove the iFix that was applied to confirm that the CVE-2021-44228 show
 
         sudo /iFix/PH42762-LOG4J/imcl_ifix_uninstall.sh 9057
 
-    When prompted for the password for the ibmadmin user, enter: **engageibm!**
+    When prompted for the password for the ibmadmin user, enter: **engageibm**
 
     <br>
 
@@ -1663,7 +1710,7 @@ vulnerability.
     
         sudo /iFix/PH29942/imcl_ifix_install.sh 20009
 
-    When prompted for the password for ibmuser, enter: **engageibm!**
+    When prompted for the password for ibmuser, enter: **engageibm**
 
      ![apply fix](./lab1-media/media/image55.png)
 	
